@@ -1,0 +1,39 @@
+*{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+padding: 0;
+margin: auto;
+}
+body{
+  background-color: rgba(255, 255, 255, 0.753);
+}
+.container{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  background-image: linear-gradient(red, rgb(0, 204, 255));
+}
+#avatar{
+  max-width: 200px;
+  max-width: 200px;
+  border-radius: 30%;
+  margin:50px;
+}
+#btn{
+  background-color: green;
+  color: white;
+  border-color: pink;
+  max-width: 100px;
+  align-self: center;
+  border-radius: 10%
+}
+#info{
+  padding: 3.5rem 2rem 2rem 2rem;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+}
+#btn{
+  margin: 20px 0px 0px 50px;
+}
